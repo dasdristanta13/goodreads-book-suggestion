@@ -1,6 +1,6 @@
 outs:
-- md5: 1c17827e3d9b35ee59f0517b2cbbfe0d.dir
-  size: 95097105
+- md5: 0026c7c4fbd027e083e97eb5e0da4da7.dir
+  size: 235581477
   nfiles: 1
   hash: md5
   path: graph-data
