@@ -247,7 +247,7 @@ embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 retriever = GraphRetriever(G, embedding_model)
 
 # Initialize quantized Llama-2 model
-model_name = "meta-llama/Llama-2-7b-chat-hf"  # or another Llama-2 variant
+model_name = "meta-llama/Llama-2-7b-chat-hf" 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=True,
